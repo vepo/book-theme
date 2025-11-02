@@ -1,6 +1,13 @@
 # -----------------------------------------------------------------------------
 # Asciidoctor PDF Theme for technical documentation and tutorials.
 # -----------------------------------------------------------------------------
+extends: 
+  - default
+toc:
+  break-after: auto
+  position: left
+  title: Sumário
+  levels: 2
 page:
   layout: portrait
   margin: [10mm, 15mm, 10mm, 15mm]
