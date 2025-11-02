@@ -45,14 +45,15 @@ description_list:
   description_indent: $base_font_size * 2.5
 outline_list:
   indent: $base_font_size * 2.5
-title_page:
-  font_family: Clear Sans Thin
-  font_color: ffffff
-  background_color: #1d4e89
+image:
   align: center
-  #logo:
-  #  top: 10%
-  #  image: image:images/puzzle_stamp_white.svg[width=30%, align=center]
+caption:
+  align: center
+title_page:
+  # font_family: Clear Sans Thin
+  font_color: ffffff
+  background_color: #FFFFFF
+  align: center
   title:
     top: 30%
     font_size: $base_font_size * 4.25
@@ -68,11 +69,12 @@ title_page:
   revision:
     margin_top: $base_font_size * 0.5
 table:
-  border_width: 0
-  cell:
-    padding: 3
+  align: center
   head:
     font_size: 10
+  grid-width: ~
+  cell:
+    padding: 3
   body:
     font_size: 9
   foot:
@@ -91,6 +93,11 @@ key:
   font_family: M+ 1mn
   font_style: bold
   separator: "\u202f+\u202f"
+
+role:
+  foco:
+    font_color: #444444
+    font_style: bold
 
 ## ----------------------------------------------------------------------------
 ## Fonts 
